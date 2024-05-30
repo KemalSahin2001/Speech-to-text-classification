@@ -45,8 +45,8 @@ To begin working with the project, follow these steps:
 
    ```bash
    git clone https://github.com/KemalSahin2001/Speech-to-text-classification.git
+   
    cd Speech-to-text-classification
-
 
 2. **Create a Miniconda environment using Python 3.11:**
 
