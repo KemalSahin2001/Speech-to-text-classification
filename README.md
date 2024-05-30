@@ -44,8 +44,8 @@ To begin working with the project, follow these steps:
 1. **Clone the repository to your local machine:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone <[repository-url](https://github.com/KemalSahin2001/Speech-to-text-classification)>
+   cd <KemalSahin2001/Speech-to-text-classification>
    ```
 
 2. **Create a Miniconda environment using Python 3.11:**
