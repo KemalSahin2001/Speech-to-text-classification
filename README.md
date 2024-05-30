@@ -17,8 +17,6 @@ project/
 │
 ├── models/
 │   ├── runs/                       # Model run directories with timestamps
-│   │   ├── Apr24_19-01-35_ParisSkyle
-│   │   └── Apr24_19-10-18_ParisSkyle
 │   ├── wav2vec2-finetuned/         # Fine-tuned Wav2Vec2 model
 │   └── bert_model_full.pth         # Full BERT model checkpoint
 │
@@ -29,7 +27,11 @@ project/
 │   └── text-classification.ipynb   # Notebook for text classification
 │
 ├── streamlit app/
-│   └── app.py            # Streamlit application script
+│   └── app.py                      # Streamlit application script
+│
+├── Reports/
+│   ├── AIN413_KemalSahin_proposal.pdf  # Project proposal document
+│   └── MI_in_healthcare_technical_report.pdf  # Technical report document
 │
 ├── README.md                       # Documentation and overview of the project
 └── requirements.txt                # Dependencies for the project
@@ -76,9 +78,13 @@ To begin working with the project, follow these steps:
    pip install -r requirements.txt
    ```
 
-7. **Download the datasets manually and place them in their respective directories if needed.**
+7. **Download the datasets manually from Kaggle and place them in their respective directories if needed:**
 
-8. **Start with the `eda.ipynb` to get a walkthrough of the project setup and initial analysis.**
+   - Medical Speech Transcription and Intent: [Download from Kaggle](https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent)
+   
+8. **Train the BERT model using the provided notebook (`text-classification.ipynb`), as the trained model is too large to upload to GitHub.**
+
+9. **Start with the `eda.ipynb` to get a walkthrough of the project setup and initial analysis.**
 
 ## Project Description
 
@@ -92,7 +98,7 @@ To begin working with the project, follow these steps:
 
 - **Runs:** Directories containing specific model runs with timestamps.
 - **Wav2Vec2:** Fine-tuned Wav2Vec2 model for speech-to-text tasks.
-- **BERT Model:** Full BERT model checkpoint for text classification.
+- **BERT Model:** Full BERT model checkpoint for text classification (to be trained using the provided notebook).
 
 ### Notebooks
 
@@ -103,6 +109,15 @@ To begin working with the project, follow these steps:
 ### Source Code
 
 - **Streamlit App:** A script for running a Streamlit application.
+
+### Reports
+
+- **Project Proposal:** AIN413_KemalSahin_proposal.pdf
+- **Technical Report:** MI_in_healthcare_technical_report.pdf
+
+## Additional Resources
+
+- **Demo Video:** Watch a demo of the Streamlit app [here](https://www.youtube.com/watch?v=6JO8EN9k9vU).
 
 ## Additional Notes
 
