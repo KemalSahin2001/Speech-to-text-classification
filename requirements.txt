@@ -1,0 +1,14 @@
+streamlit
+numpy
+pandas
+matplotlib
+seaborn
+sklearn
+mlp_toolkits
+os
+string
+librosa 
+torch
+transformers
+datasets
+tqdm
